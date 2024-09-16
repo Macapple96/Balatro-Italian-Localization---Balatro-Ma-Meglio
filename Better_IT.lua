@@ -1,7 +1,7 @@
 --- STEAMODDED HEADER
 --- MOD_NAME: Better Italian
 --- MOD_ID: Better_IT
---- PREFIX: Better_IT
+--- PREFIX: Maca-BIT
 --- MOD_AUTHOR: [Maca]
 --- MOD_DESCRIPTION: Humble community-made version of the Italian Balatro localization. Inspired by the French Community Localization. Content based on the Italian Community's Feedback in the Official Balatro Discord.
 --- PRIORITY: -100000
@@ -34,7 +34,8 @@
         SMODS.Atlas { key = "shop_sign", path = { ['it'] = "ShopSignAnimation.png", }, px = 113, py = 57, prefix_config = { key = false }, atlas_table = 'animation_atli', frames = 4 }
     end
 	
-	--sendDebugMessage("BALATRO ITALIANO GODOOOO!")
-
+	apply_sprites()
+	sendDebugMessage("Maca_BIT: Balatro Ma Meglio - CARICATA")
+	
 ------------MOD CODE END----------------------
 ----------------------------------------------
