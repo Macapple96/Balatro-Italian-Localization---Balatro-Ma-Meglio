@@ -687,8 +687,8 @@ return {
                 name="Certificato",
                 text={
                     "All'inizio del round,",
-                    "aggiungi una {C:attention}Carta",
-                    "casuale con un {C:attention}Sigillo",
+                    "aggiungi una {C:attention}carta",
+                    "casuale con un {C:attention}sigillo",
                     "casuale alla tua mano",
                 },
                 unlock={
@@ -1131,7 +1131,7 @@ return {
                 text={
                     "Vendi questa carta per",
                     "disattivare l'attuale",
-                    "{C:attention}Buio boss{}",
+                    "{C:attention}Buio Boss{}",
                 },
             },
             j_lucky_cat={
@@ -1189,10 +1189,10 @@ return {
                 text={
                     "Guadagni {C:money}$#1#{} se la mano",
                     "giocata attiva",
-                    "l'abilità del {C:attention}Buio boss{}.",
+                    "l'abilità del {C:attention}Buio Boss{}.",
                 },
                 unlock={
-                    "Sconfiggi un Buio boss",
+                    "Sconfiggi un Buio Boss",
                     "in {E:1,C:attention}1 mano{} senza",
                     "scartare carte",
                 },
@@ -1413,7 +1413,7 @@ return {
                 text={
                     "Guadagni {C:money}$#1#{} alla fine del round",
                     "I pagamenti aumentano di {C:money}$#2#{}",
-                    "quando viene sconfitto il {C:attention}Buio boss{}",
+                    "quando viene sconfitto il {C:attention}Buio Boss{}",
                 },
             },
             j_rough_gem={
@@ -2649,8 +2649,8 @@ return {
             tag_coupon={
                 name="Patto Coupon",
                 text={
-                    "Le carte e le Buste di Espansione",
-                    "iniziali nel prossimo negozio sono gratis",
+                    "Le carte e le buste iniziali",
+                    "nel prossimo negozio sono gratis",
                 },
             },
             tag_d_six={
@@ -3689,7 +3689,7 @@ return {
             ph_click_confirm="Fai clic di nuovo per confermare",
             ph_deck_preview_effective=" Totale effettivo dovuto a Jolly, Bui o Potenziamenti",
             ph_deck_preview_stones="Pietre",
-            ph_defeat_the_boss="Sconfiggi il Buio boss",
+            ph_defeat_the_boss="Sconfiggi il Buio Boss",
             ph_defeat_this_blind_1="Sconfiggi questo Buio",
             ph_defeat_this_blind_2="per scoprirlo",
             ph_demo_thanks_1="Grazie aver giocato alla",

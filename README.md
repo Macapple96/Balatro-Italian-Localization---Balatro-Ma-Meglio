@@ -7,7 +7,7 @@ A humble community-made alternative to the Italian localization of Balatro.
 
 *Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), and buy it to support its creator!*
 
-## Come si installare la Mod ?
+## Come si installa la Mod ?
 
 ### [Scarica la mod da questo link](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/releases/latest)
 
@@ -17,7 +17,12 @@ A humble community-made alternative to the Italian localization of Balatro.
 
 - Initial Release 
 
-## Contributors
+## Known Issues
+
+- Atlases and texture substitution being janky (steamodded issue)
+- Crash when changing language (also steamodded issue)
+
+# Contributors
 
 ### Balatro Italiano 
 Riccardo "Maca" Lussu, Official Balatro Discord Italian Modding Community
