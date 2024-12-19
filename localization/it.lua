@@ -3366,22 +3366,34 @@ return {
             c_typecast_1="Caratterista",
             c_xray_1="Visione a raggi X",
         },
-        collabs={
-            Clubs={
-                ["1"]="Predefinito",
-                ["2"]="Vampire Survivors",
+        collabs = {
+            Spades = {
+                ['1'] = 'Predefinito', 
+                ['2'] = 'The Witcher',
+                ['3'] = 'Cyberpunk 2077',
+                ['4'] = 'Shovel Knight',
+                ['5'] = 'Don\'t Starve',
             },
-            Diamonds={
-                ["1"]="Predefinito",
-                ["2"]="DAVE THE DIVER",
+            Hearts = {
+                ['1'] = 'Predefinito', 
+                ['2'] = 'Among Us',
+                ['3'] = 'The Binding of Isaac',
+                ['4'] = 'Cult of the Lamb',
+                ['5'] = 'Divinity Original Sin 2',
             },
-            Hearts={
-                ["1"]="Predefinito",
-                ["2"]="Among Us",
+            Clubs = {
+                ['1'] = 'Predefinito', 
+                ['2'] = 'Vampire Survivors',
+                ['3'] = 'Slay the Spire',
+                ['4'] = 'Potion Craft',
+                ['5'] = 'Warframe',
             },
-            Spades={
-                ["1"]="Predefinito",
-                ["2"]="The Witcher",
+            Diamonds = {
+                ['1'] = 'Predefinito', 
+                ['2'] = 'DAVE THE DIVER',
+                ['3'] = 'Stardew Valley',
+                ['4'] = 'Enter the Gungeon',
+                ['5'] = '1000xRESIST',
             },
         },
         dictionary={
@@ -3818,9 +3830,9 @@ return {
             ['Pair']="Coppia",
             ["Royal Flush"]="Scala reale Massima",
             ['Straight']="Scala",
-            ["Straight Flush"]="Scala reale",
+            ["Straight Flush"]="Scala Reale",
             ["Three of a Kind"]="Tris",
-            ["Two Pair"]="Doppia coppia",
+            ["Two Pair"]="Doppia Coppia",
         },
         quips={
             dq_1={
@@ -3887,12 +3899,12 @@ return {
             },
             wq_4={
                 "Peccato che queste",
-                "fiche sono tutte",
+                "fiche siano tutte",
                 "virtuali...",
             },
             wq_5={
                 "Sembra che ti",
-                "ho insegnato bene!",
+                "abbia insegnato bene!",
             },
             wq_6={
                 "Sei abile",
@@ -3932,8 +3944,27 @@ return {
             Spades="Picche",
         },
         tutorial={
+			sb_1={
+                "Ehilà! Mi chiamo",
+                "{C:attention}Jimbo{}, sono qui per",
+                "insegnarti come si gioca!",
+            },
+            sb_2={
+                "L'obiettivo è guadagnare",
+                "{C:blue}fiche{} per battere",
+                "il {C:attention}Buio{} nemico",
+            },
+            sb_3={
+                "Questo è un {C:blue}Piccolo Buio{},",
+                "devi ottenere solo",
+                "{C:attention}300 fiche{} per batterlo.",
+            },
+            sb_4={
+                "Seleziona il {C:blue}Piccolo Buio",
+                "per iniziare il round!",
+            },
             bb_1={
-                "Se selezioni il {C:attention}Grande Buio",
+                "Se batti il {C:attention}Grande Buio",
                 "guadagnerai dei soldi",
             },
             bb_2={
@@ -3954,27 +3985,32 @@ return {
             },
             bb_5={
                 "Batti l'{C:attention}Ante{} #1# per vincere.",
-                "Ora scegli la tua strada!",
+                "Ora tocca a te!",
             },
             fh_1={
                 "Guadagni Fiche",
                 "giocando {C:attention}mani di poker",
             },
             fh_2={
-                "Con ogni {C:attention}mano di poker{} guadagni",
+                "Ogni {C:attention}mano di poker{} vale",
                 "una quantità base di {C:blue}Fiche",
                 "moltiplicata per un certo {C:red}Molt",
             },
             fh_3={
                 "Trovi le tue {C:attention}mani di poker",
                 "nell'area {C:attention}Dati sessione{},",
-                "insieme ad altri dati",
+                "insieme ad altre informazioni",
                 "sulla sessione attuale",
             },
             fh_4={
                 "Anche con le carte",
                 "guadagni {C:blue}Fiche{},",
                 "passaci sopra il cursore!",
+            }, 
+			fh_4_touch={
+                "Anche con le carte",
+                "guadagni {C:blue}Fiche{},",
+                "tieni premuto per vederle!",
             },
             fh_5={
                 "Ora seleziona fino a",
@@ -3998,26 +4034,27 @@ return {
                 "per vincere il round.",
                 "Buona fortuna!",
             },
-            s_1={
+            sh_1={
+                "Quando ottieni altre carte,",
+                "ricorda che puoi riordinarle.",
+                "I {C:attention}Jolly{} si attivano",
+                "da sinistra verso destra",
+            },
+            sh_2={
+                "E non dimenticarti di",
+                "{C:attention}USARE{} i consumabili!",
+            },
+            sh_3={
+                "Seleziona fino a {C:attention}2{} carte",
+                "nella tua mano e premi",
+                "{C:attention}'USA'{} sul {C:tarot}Tarocco{}",
+                "per potenziarle!",
+            },
+			s_1={
                 "Ottimo lavoro! Ora che",
                 "hai le {E:1}mani{} piene di {C:money}soldi{},",
                 "puoi comprare delle nuove",
-                "carte dal {C:attention}negozio",
-            },
-            s_10={
-                "I {C:attention}Buoni{} vengono riassortiti",
-                "dopo che sconfiggi il",
-                "{C:attention}Buio Boss{}.",
-            },
-            s_11={
-                "E dai un'occhiata a entrambe",
-                "le {C:booster}buste{} in",
-                "ciascun negozio. Sono",
-                "piene di carte utili!",
-            },
-            s_12={
-                "Passiamo",
-                "al {C:attention}prossimo round{}.",
+                "carte dal {C:attention}Negozio",
             },
             s_2={
                 "Compra questo",
@@ -4027,7 +4064,7 @@ return {
                 "Questo è uno dei {C:attention}#1#",
                 "{C:attention}Jolly{} che puoi aggiungere",
                 "alla tua sessione. Ogni {C:attention}Jolly",
-                "fa qualcosa di diverso",
+                "ha un effetto diverso",
             },
             s_4={
                 "Questo aggiunge {C:red}+4 Molt{} a",
@@ -4040,7 +4077,7 @@ return {
             },
             s_6={
                 "Ora compra l'altra",
-                "carta dal {C:attention}negozio",
+                "carta dal {C:attention}Negozio",
             },
             s_7={
                 "Questo {C:tarot}Tarocco{} è una",
@@ -4059,40 +4096,20 @@ return {
                 "I {C:attention}Buoni{} migliorano",
                 "passivamente la sessione!",
             },
-            sb_1={
-                "Ehilà! Mi chiamo",
-                "{C:attention}Jimbo{}, sono qui per",
-                "insegnarti come si gioca!",
+			s_10={
+                "I {C:attention}Buoni{} vengono riassortiti",
+                "dopo che sconfiggi il",
+                "{C:attention}Buio Boss{}.",
             },
-            sb_2={
-                "L'obiettivo è guadagnare",
-                "{C:blue}fiche{} per battere",
-                "il {C:attention}Buio{} nemico",
+            s_11={
+                "E dai un'occhiata a entrambe",
+                "le {C:booster}buste{} in",
+                "ciascun negozio. Sono",
+                "piene di carte utili!",
             },
-            sb_3={
-                "Questo è un {C:blue}Piccolo Buio{},",
-                "devi ottenere solo",
-                "{C:attention}300 fiche{} per batterlo.",
-            },
-            sb_4={
-                "Seleziona il {C:blue}Piccolo Buio",
-                "per iniziare il round!",
-            },
-            sh_1={
-                "Quando ottieni più carte,",
-                "ricorda che puoi riordinarle.",
-                "I {C:attention}Jolly{} si attivano",
-                "da sinistra a destra",
-            },
-            sh_2={
-                "E assicurati di",
-                "{C:attention}USARE{} i consumabili!",
-            },
-            sh_3={
-                "Seleziona fino a {C:attention}2{} carte",
-                "nella tua mano e premi",
-                "{C:attention}'USA'{} sul {C:tarot}Tarocco{}",
-                "per potenziarle!",
+            s_12={
+                "Passiamo",
+                "al {C:attention}prossimo round{}.",
             },
         },
         v_dictionary={
@@ -4110,8 +4127,8 @@ return {
             ante_x_voucher="BUONO ANTE #1#",
             challenges_completed="#1#/#2# sfide completate",
             completed="Completato: #1#/#2#",
-            deck_preview_wheel_singular="Il numero potrebbe essere inferiore a causa delle #1# carte pescate a faccia in giù",
-            deck_preview_wheel_plural="Il numero potrebbe essere inferiore a causa della carta pescata a faccia in giù",
+            deck_preview_wheel_singular="Il numero potrebbe essere inferiore a causa della carta pescate a faccia in giù",
+            deck_preview_wheel_plural="Il numero potrebbe essere inferiore a causa delle #1# carte pescata a faccia in giù",
             interest="$#1# di interessi per ogni $#2# (massimo $#3#)",
             loyalty_active="Attivazione!",
             loyalty_inactive="#1# rimanenti",
