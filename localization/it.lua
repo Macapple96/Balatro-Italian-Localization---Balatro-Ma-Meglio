@@ -2555,7 +2555,7 @@ return {
             stake_blue={
                 name="Puntata blu",
                 text={
-                    "{C:red}-1{} scarto per round",
+                    "{C:red}-1{} scarto",
                     "{s:0.8}Applica tutte le puntate precedenti",
                 },
             },
@@ -3517,7 +3517,7 @@ return {
             k_daily_run="Sessione giornaliera",
             k_debuffed="Penalizzato",
             k_deck="Mazzo",
-            k_deck_stake_wins="Vittorie puntata mazzo",
+            k_deck_stake_wins="Puntabte vinte",
             k_defeated_by="Sconfitto da",
             k_demo_version_ex="Versione demo!",
             k_disabled_ex="Disattivato!",
@@ -3632,7 +3632,7 @@ return {
             },
             ml_edition_seal_enhancement_explanation={
                 "Ogni carta da gioco può avere",
-                "un potenziamento, un'edizione e un Sigillo",
+                "un potenziamento, un'edizione e un sigillo",
             },
             ml_eternal={
                 "Eterna",
@@ -4110,8 +4110,8 @@ return {
             ante_x_voucher="BUONO ANTE #1#",
             challenges_completed="#1#/#2# sfide completate",
             completed="Completato: #1#/#2#",
-            deck_preview_wheel_plural="Jumlahnya mungkin lebih rendah karena #1# kartu yang ditarik menghadap ke bawah",
-            deck_preview_wheel_singular="Jumlahnya mungkin lebih rendah karena #1# kartu yang ditarik menghadap ke bawah",
+            deck_preview_wheel_singular="Il numero potrebbe essere inferiore a causa delle #1# carte pescate a faccia in giù",
+            deck_preview_wheel_plural="Il numero potrebbe essere inferiore a causa della carta pescata a faccia in giù",
             interest="$#1# di interessi per ogni $#2# (massimo $#3#)",
             loyalty_active="Attivazione!",
             loyalty_inactive="#1# rimanenti",

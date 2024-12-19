@@ -1,36 +1,79 @@
 
 [![Balatro](https://www.playbalatro.com/assets/logo2-C9SU2BrI.png)](https://www.playbalatro.com/)
 
-# Balatro Italian Translation
+#  Traduzione Italiana di Balatro - Balatro Italian Translation
 
-A humble community-made alternative to the Italian localization of Balatro.
+### Questo è un umile progetto di aggiornamento della traduzione Italiana di Balatro, realizzato tenendo conto del feedback della community sul server Discord Ufficiale di Balatro.
+
+*This is an humble community-made alternative to the Italian localization of Balatro.*
 
 *Learn more about Balatro on [playbalatro.com](https://www.playbalatro.com/), and buy it to support its creator!*
 
-## Come si installa la Mod ?
+## ❓ Perché?
+- La traduzione Italiana ufficiale di Balatro presenta alcune lacune, ad esempio alcuni testi sono in altre lingue come indonesiano o spagnolo, dimenticanze *corrette* da questa mod:
+![ciegas y mejoras de cartas](https://media.discordapp.net/attachments/1207805314250965042/1290455518724231229/image.png?ex=6764ac5b&is=67635adb&hm=f67bc782a52fb38cb271d24950344e9aff8ed68b9398e26248e6e6ba842731fd&=&format=webp&quality=lossless&width=1122&height=702)
 
-### [Scarica la mod da questo link](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/releases/latest)
+- Gli effetti di alcuni Jolly sono ambigui, o addirittura *completamente errati*:
 
-**WIP WIP WIP SONO LE 02:18**
+<center>
+
+| Originale | Moddato |
+| :-----------: | :-----------: |
+| ![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/credit_prima.jpg?raw=true) | ![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/credit_dp.jpg?raw=true) |
+| ![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/dagger_pri.jpg?raw=true) | ![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/dagger_dp.jpg?raw=true) |
+
+</center>
+
+- Alcune traduzioni sono incostanti nell'uso dei termini in gioco, o fanno uso di parole desuete o termini vaghi.
+
+## 🔧 Come si installa la Mod?
+
+### [Scarica la mod da questo link](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/releases/latest) 🔗
+
+🖥️ Segui le istruzioni nella pagina del download per scaricare e installare la mod;
+
+- Installare la mod tramite Steamodded è un procedimento un po' più lungo e complesso ma permette di disattivarla all'occorrenza senza dover riparare i file di gioco e di poter usare le altre mod realizzate per Steamodded.
+
+- Installare la mod manualmente è *molto* più facile, ma il procedimento va ripetuto ogni volta che il gioco viene aggiornato.
+
+Scegli il metodo che preferisci! Personalmente consiglio il metodo manuale, perché Steamodded ha qualche problema :)
+
+## 🌟 Caratteristiche
+- Completa revisione della traduzione Italiana di Balatro realizzata tenendo conto del feedback della community
+- Gli sprite sono stati tradotti in Italiano!
+
+![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/tarot_it.jpg?raw=true)
+
+![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/planet_it.jpg?raw=true)
+
+![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/buste_it.jpg?raw=true)
+
+## 👷 Problemi già noti
+
+#### I seguenti problemi sono solo per l'installazione Steamodded
+- Il gioco crasha e si chiude quando si cambia lingua (è un problema di Steamodded)
+- A volte le texture delle carte non vengono sostituite (anche questo è un problema di Steamodded)
 
 ## Current state
 
-- Initial Release 
+- Initial Release
+- Aggiornamento README e istruzioni installazione
 
-## Known Issues
+# 😀 Contributors
 
-- Atlases and texture substitution being janky (steamodded issue)
-- Crash when changing language (also steamodded issue)
-
-# Contributors
+#### Questa mod non sarebbe stata possibile senza l'aiuto di:
 
 ### Balatro Italiano 
-Riccardo "Maca" Lussu, Official Balatro Discord Italian Modding Community
+- Riccardo "Maca" Lussu e la Community Italiana sul Discord Ufficiale di Balatro!
+- @carlesso_spuntamatite (spuntamatite#8883) per il prezioso file .pdf di feedback
 
-### The Contributors of the French Localization Repository
+### The Contributors of the [French Localization Repository](https://github.com/FrBmt-BIGetNouf/balatro-french-translations)
 Robin Lassire, Gabriel Rodrigues, Pierre-Alexandre Rouillon, Stanislas Signoud (Signez), Bastien Luneteau, Quentin Furtys, Nicolas Cordier, David Lefebvre, François Beaumont.
 
-## License
+### [Pipeline for Balatro Sprite translation](https://github.com/Signez/balatro-sprites-i18n)
+Stanislas Signoud (Signez) & contributors 
+
+## 🧾 License
 
 This project (**except all the artwork extracted or derivated from the Balatro game**) is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
