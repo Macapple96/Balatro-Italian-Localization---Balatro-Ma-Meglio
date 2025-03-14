@@ -3529,7 +3529,7 @@ return {
             k_daily_run="Sessione giornaliera",
             k_debuffed="Penalizzato",
             k_deck="Mazzo",
-            k_deck_stake_wins="Puntabte vinte",
+            k_deck_stake_wins="Puntate vinte",
             k_defeated_by="Sconfitto da",
             k_demo_version_ex="Versione demo!",
             k_disabled_ex="Disattivato!",
