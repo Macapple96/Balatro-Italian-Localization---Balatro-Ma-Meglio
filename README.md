@@ -50,9 +50,13 @@ Scegli il metodo che preferisci! Personalmente consiglio il metodo manuale, perc
 
 ## 👷 Problemi già noti
 
+- La carta "Ceres" ha ancora come sprite "Ceres" anziché "Cerere"
+
 #### I seguenti problemi sono solo per l'installazione Steamodded
 - Il gioco crasha e si chiude quando si cambia lingua (è un problema di Steamodded)
 - A volte le texture delle carte non vengono sostituite (anche questo è un problema di Steamodded)
+
+
 
 ## Current state
 

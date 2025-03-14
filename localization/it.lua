@@ -861,7 +861,7 @@ return {
                 },
             },
             j_even_steven={
-                name="Pari pari",
+                name="Pari-pari",
                 text={
                     "Le carte giocate con",
                     "valore {C:attention}pari{} danno",
@@ -1262,7 +1262,7 @@ return {
                 },
             },
             j_odd_todd={
-                name="Dispari dispari",
+                name="Dispari-dispari",
                 text={
                     "Le carte giocate con",
                     "valore {C:attention}dispari{} danno",
@@ -1442,13 +1442,12 @@ return {
                 name="Satellite",
                 text={
                     "Guadagni {C:money}$#1#{} alla fine del",
-                    "round per ogni carta {C:planet}Pianeta{} unica",
+                    "round per ogni carta {C:planet}Pianeta{} diversa",
                     "usata in questa sessione",
                     "{C:inactive}(Attualmente {C:money}$#2#{C:inactive})",
                 },
                 unlock={
-                    "Devi avere {E:1,C:money}$#1#",
-                    "o più",
+                    "Devi avere almeno {E:1,C:money}$#1#",
                 },
             },
             j_scary_face={
@@ -3366,34 +3365,42 @@ return {
             c_typecast_1="Caratterista",
             c_xray_1="Visione a raggi X",
         },
-        collabs = {
-            Spades = {
-                ['1'] = 'Predefinito', 
-                ['2'] = 'The Witcher',
-                ['3'] = 'Cyberpunk 2077',
-                ['4'] = 'Shovel Knight',
-                ['5'] = 'Don\'t Starve',
+        collabs={
+            Clubs={
+                ["1"]="Predefinito",
+                ["2"]="Vampire Survivors",
+                ["3"]="Slay the Spire",
+                ["4"]="Potion Craft",
+                ["5"]="Warframe",
+                ["6"]="Vault-Tec",
+                ["7"]="Dead by Daylight",
             },
-            Hearts = {
-                ['1'] = 'Predefinito', 
-                ['2'] = 'Among Us',
-                ['3'] = 'The Binding of Isaac',
-                ['4'] = 'Cult of the Lamb',
-                ['5'] = 'Divinity Original Sin 2',
+            Diamonds={
+                ["1"]="Predefinito",
+                ["2"]="DAVE THE DIVER",
+                ["3"]="Stardew Valley",
+                ["4"]="Enter the Gungeon",
+                ["5"]="1000xRESIST",
+                ["6"]="Civilization VII",
+                ["7"]="Rust",
             },
-            Clubs = {
-                ['1'] = 'Predefinito', 
-                ['2'] = 'Vampire Survivors',
-                ['3'] = 'Slay the Spire',
-                ['4'] = 'Potion Craft',
-                ['5'] = 'Warframe',
+            Hearts={
+                ["1"]="Predefinito",
+                ["2"]="Among Us",
+                ["3"]="The Binding of Isaac",
+                ["4"]="Cult of the Lamb",
+                ["5"]="Divinity Original Sin 2",
+                ["6"]="Critical Role",
+                ["7"]="Bugsnax",
             },
-            Diamonds = {
-                ['1'] = 'Predefinito', 
-                ['2'] = 'DAVE THE DIVER',
-                ['3'] = 'Stardew Valley',
-                ['4'] = 'Enter the Gungeon',
-                ['5'] = '1000xRESIST',
+            Spades={
+                ["1"]="Predefinito",
+                ["2"]="The Witcher",
+                ["3"]="Cyberpunk 2077",
+                ["4"]="Shovel Knight",
+                ["5"]="Don’t Starve",
+                ["6"]="Assassin's Creed",
+                ["7"]="Slay the Princess",
             },
         },
         dictionary={

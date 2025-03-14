@@ -6,7 +6,7 @@
 --- MOD_DESCRIPTION: Humble community-made version of the Italian Balatro localization. Inspired by the French Community Localization. Content based on the Italian Community's Feedback in the Official Balatro Discord.
 --- PRIORITY: 0
 --- DEPENDENCIES: [Steamodded>=1.0.0~ALPHA-0812d]
---- VERSION: 1.0
+--- VERSION: 1.0.2
 
 ----------------------------------------------
 ------------MOD CODE -------------------------
