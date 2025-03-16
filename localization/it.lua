@@ -283,7 +283,7 @@ return {
             bl_wheel={
                 name="La Ruota",
                 text={
-                    "#1# su 7 carte vengono",
+                    " su 7 carte vengono",
                     "pescate a faccia in giù",
                 },
             },
