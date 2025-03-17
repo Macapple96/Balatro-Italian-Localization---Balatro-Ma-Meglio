@@ -1,5 +1,5 @@
 
-[![Balatro](https://www.playbalatro.com/assets/logo2-C9SU2BrI.png)](https://www.playbalatro.com/)
+[![Balatro](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/bmm.png?raw=true)](https://www.playbalatro.com/)
 
 #  Traduzione Italiana di Balatro - Balatro Italian Translation
 
@@ -11,20 +11,37 @@
 
 ## ❓ Perché?
 - La traduzione Italiana ufficiale di Balatro presenta alcune lacune, ad esempio alcuni testi sono in altre lingue come indonesiano o spagnolo, dimenticanze *corrette* da questa mod:
-![ciegas y mejoras de cartas](https://media.discordapp.net/attachments/1207805314250965042/1290455518724231229/image.png?ex=6764ac5b&is=67635adb&hm=f67bc782a52fb38cb271d24950344e9aff8ed68b9398e26248e6e6ba842731fd&=&format=webp&quality=lossless&width=1122&height=702)
+![ciegas y mejoras de cartas](https://i.imgur.com/blYwtvK.png)
+
+
 
 - Gli effetti di alcuni Jolly sono ambigui, o addirittura *completamente errati*:
 
 <center>
 
-| Originale | Moddato |
-| :-----------: | :-----------: |
-| ![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/credit_prima.jpg?raw=true) | ![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/credit_dp.jpg?raw=true) |
-| ![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/dagger_pri.jpg?raw=true) | ![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/dagger_dp.jpg?raw=true) |
+![CreditCardIT](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/ogvsmod_1.png?raw=true)
 
 </center>
 
-- Alcune traduzioni sono incostanti nell'uso dei termini in gioco, o fanno uso di parole desuete o termini vaghi.
+    Originale Inglese: "Credit Card - You can go up to -20$ in debt"
+
+Il Jolly "Carta di Credito" permette al giocatore di scendere sotto 0$ quando spende $ nel negozio, fino a un limite di -20$. La traduzione originale fa riferimento a "il debito", ma quale debito? C'è una meccanica di debito? Forse sto esagerando, ma mi è sembrata una traduzione – per quanto *accettabile* – parecchio **legnosa**.
+
+#### Vediamo un altro esempio, stavolta con una traduzione che fa travisare l'effetto del Jolly!
+<center>
+
+![DaggerIT](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/ogvsmod_2.png?raw=true)
+
+</center>
+
+    Originale Inglese: "Ceremonial Dagger - When Blind is selected, destroys the Joker 
+    to the right and permanently add double its sell value to this Mult"
+
+Nella traduzione originale, sembra che il "Pugnale Cerimoniale" distrugga il Jolly a destra ( *quale* destra? la *sua* destra o il Jolly *più a destra di tutti?* ) e aggiunga il doppio del valore di vendita al Moltiplicatore, ma **non** è specificato che sia quello del Jolly stesso, cosa che potrebbe confondere i giocatori."
+
+---
+
+
 
 ## 🔧 Come si installa la Mod?
 
@@ -32,19 +49,21 @@
 
 🖥️ Segui le istruzioni nella pagina del download per scaricare e installare la mod;
 
-- Installare la mod tramite Steamodded è un procedimento un po' più lungo e complesso ma permette di disattivarla all'occorrenza senza dover riparare i file di gioco e di poter usare le altre mod realizzate per Steamodded.
+- Installare la mod tramite Modloader (*Steamodded & Lovely*) è un procedimento un po' più lungo e complesso ma permette di disattivarla all'occorrenza senza dover riparare i file di gioco e di poter usare le altre mod compatibili col Mod Loader.
 
 - Installare la mod manualmente è *molto* più facile, ma il procedimento va ripetuto ogni volta che il gioco viene aggiornato.
 
 Scegli il metodo che preferisci! Personalmente consiglio il metodo manuale, perché Steamodded ha qualche problema :)
 
-## 🌟 Caratteristiche
+## 🌟 Anteprima
 - Completa revisione della traduzione Italiana di Balatro realizzata tenendo conto del feedback della community
 - Gli sprite sono stati tradotti in Italiano!
 
-![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/tarot_it.jpg?raw=true)
-
-![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/planet_it.jpg?raw=true)
+<center>
+<img src="https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/jokers_it.png?raw=true" width=500>
+<img src="https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/tarot_it.png?raw=true" width=800>
+<img src="https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/planet_it.png?raw=true" width=800>
+</center>
 
 ![](https://github.com/Macapple96/Balatro-Italian-Localization---Balatro-Ma-Meglio/blob/master/other%20assets/buste_it.jpg?raw=true)
 
