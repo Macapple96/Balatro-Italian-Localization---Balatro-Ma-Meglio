@@ -2041,7 +2041,7 @@ return {
                 },
             },
             p_arcana_jumbo={
-                name="Busta Arcana Jumbo",
+                name="Super Busta Arcana",
                 text={
                     "Scegli {C:attention}#1#{} tra massimo",
                     "{C:attention}#2#{C:tarot} Tarocchi{} da",
@@ -2065,7 +2065,7 @@ return {
                 },
             },
             p_buffoon_jumbo={
-                name="Busta Buffone Jumbo",
+                name="Super Busta Buffone",
                 text={
                     "Scegli {C:attention}#1#{} tra massimo",
                     "{C:attention}#2#{C:joker} Jolly{}",
@@ -2086,7 +2086,7 @@ return {
                 },
             },
             p_celestial_jumbo={
-                name="Busta Celeste jumbo",
+                name="Super Busta Celeste",
                 text={
                     "Scegli {C:attention}#1#{} tra massimo",
                     "{C:attention}#2#{} carte {C:planet}Pianeta{} da",
@@ -2110,7 +2110,7 @@ return {
                 },
             },
             p_spectral_jumbo={
-                name="Busta Spettrale Jumbo",
+                name="Super Busta Spettrale",
                 text={
                     "Scegli {C:attention}#1#{} tra massimo",
                     "{C:attention}#2#{} carte {C:spectral}Spettrali{} da",
@@ -2134,7 +2134,7 @@ return {
                 },
             },
             p_standard_jumbo={
-                name="Busta Standard Jumbo",
+                name="Super Busta Standard",
                 text={
                     "Scegli {C:attention}#1#{} tra massimo",
                     "{C:attention}#2#{} carte da {C:attention}gioco{} da",
@@ -2530,13 +2530,13 @@ return {
         },
         Stake={
 			stake_white={
-                name="Puntata bianca",
+                name="Puntata Bianca",
                 text={
                     "Difficoltà base",
                 },
             },
 			stake_red={
-                name="Puntata rossa",
+                name="Puntata Rossa",
                 text={
                     "Il {C:attention}Piccolo Buio{} non dà",
                     "soldi come ricompensa",
@@ -2544,7 +2544,7 @@ return {
                 },
             },
 			stake_green={
-                name="Puntata verde",
+                name="Puntata Verde",
                 text={
                     "Incremento più rapido dei punti",
                     "richiesti per ciascun {C:attention}Ante",
@@ -2552,14 +2552,14 @@ return {
                 },
             },
             stake_blue={
-                name="Puntata blu",
+                name="Puntata Blu",
                 text={
                     "{C:red}-1{} scarto",
                     "{s:0.8}Applica tutte le puntate precedenti",
                 },
             },
             stake_black={
-                name="Puntata nera",
+                name="Puntata Nera",
                 text={
                     "Il negozio può avere Jolly {C:attention}Eterni{}",
                     "{C:inactive,s:0.8}{Invendibili o indistruttibili}",
@@ -2567,7 +2567,7 @@ return {
                 },
             },
             stake_purple={
-                name="Puntata viola",
+                name="Puntata Viola",
                 text={
                     "Incremento (ancora) più rapido dei punti",
                     "richiesti per ciascun {C:attention}Ante",
@@ -2575,15 +2575,15 @@ return {
                 },
             },
             stake_orange={
-                name="Puntata arancione",
+                name="Puntata Arancione",
                 text={
                     "Il negozio può avere dei Jolly {C:attention}Deperibili{}",
                     "{C:inactive,s:0.8}(Penalizzati dopo 5 round)",
-                    "{s:0.8}Si applica a tutte le puntate precedenti",
+                    "{s:0.8}Applica a tutte le puntate precedenti",
                 },
             },
 			stake_gold={
-                name="Puntata dorata",
+                name="Puntata Dorata",
                 text={
                     "Il negozio può avere dei Jolly {C:attention}a Noleggio{}",
                     "{C:inactive,s:0.8}(Costano {C:money,s:0.8}$3{C:inactive,s:0.8} per round)",
@@ -3738,7 +3738,7 @@ return {
             ph_unscored_hand="La mano non segnerà punti",
             ph_up_ante_1="Aumenta l'ante",
             ph_up_ante_2="Incrementa tutti i Bui",
-            ph_up_ante_3="Aggiorna Bui",
+            ph_up_ante_3="Cambia i Bui",
             ph_vouchers_redeemed="Buoni riscattati in questa sessione",
             ph_you_win="VITTORIA!",
             ph_you_win_demo="VITTORIA NELLA DEMO!",
@@ -4134,8 +4134,8 @@ return {
             ante_x_voucher="BUONO ANTE #1#",
             challenges_completed="#1#/#2# sfide completate",
             completed="Completato: #1#/#2#",
-            deck_preview_wheel_singular="Il numero potrebbe essere inferiore a causa della carta pescate a faccia in giù",
-            deck_preview_wheel_plural="Il numero potrebbe essere inferiore a causa delle #1# carte pescata a faccia in giù",
+            deck_preview_wheel_singular="Il numero potrebbe essere inferiore a causa della carta pescata a faccia in giù",
+            deck_preview_wheel_plural="Il numero potrebbe essere inferiore a causa delle #1# carte pescate a faccia in giù",
             interest="$#1# di interessi per ogni $#2# (massimo $#3#)",
             loyalty_active="Attivazione!",
             loyalty_inactive="#1# rimanenti",
