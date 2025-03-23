@@ -232,7 +232,7 @@ return {
                 name="Il Pilastro",
                 text={
                     "Le carte giocate precedentemente",
-                    "in questo Ante sono penalizzate",
+                    "in questa Posta sono penalizzate",
                 },
             },
             bl_plant={
@@ -917,7 +917,7 @@ return {
                 },
                 unlock={
                     "Raggiungi il liv.",
-                    "ante {E:1,C:attention}#1#",
+                    "posta {E:1,C:attention}#1#",
                 },
             },
             j_fortune_teller={
@@ -1405,7 +1405,7 @@ return {
                 },
                 unlock={
                     "Raggiungi il liv.",
-                    "ante {E:1,C:attention}#1#",
+                    "posta {E:1,C:attention}#1#",
                 },
             },
             j_rocket={
@@ -2547,7 +2547,7 @@ return {
                 name="Puntata Verde",
                 text={
                     "Incremento più rapido dei punti",
-                    "richiesti per ciascun {C:attention}Ante",
+                    "richiesti per ciascuna {C:attention}Posta",
                     "{s:0.8}Applica tutte le puntate precedenti",
                 },
             },
@@ -2570,7 +2570,7 @@ return {
                 name="Puntata Viola",
                 text={
                     "Incremento (ancora) più rapido dei punti",
-                    "richiesti per ciascun {C:attention}Ante",
+                    "richiesti per ciascuna {C:attention}Posta",
                     "{s:0.8}Applica tutte le puntate precedenti",
                 },
             },
@@ -3215,26 +3215,26 @@ return {
             v_hieroglyph={
                 name="Geroglifico",
                 text={
-                    "{C:attention}-#1#{} Ante,",
+                    "{C:attention}-#1#{} Posta,",
                     "{C:blue}-#1#{} mano",
                 },
             },
             v_petroglyph={
                 name="Petroglifo",
                 text={
-                    "{C:attention}-#1#{} Ante,",
+                    "{C:attention}-#1#{} Posta,",
                     "{C:red}-#1#{} scarto",
                 },
                 unlock={
                     "Raggiungi il liv.",
-                    "Ante {E:1,C:attention}#1#",
+                    "Posta {E:1,C:attention}#1#",
                 },
             },
             v_directors_cut={
                 name="Versione del Regista",
                 text={
                     "Puoi cambiare il {C:money}Buio Boss",
-                    "{C:attention}1{} volta per Ante,",
+                    "{C:attention}1{} volta per Posta,",
                     "{C:money}$#1#{} per cambio",
                 },
             },
@@ -3270,8 +3270,8 @@ return {
     },
     misc={
         achievement_descriptions={
-            ante_up="Raggiungi l'ante 4",
-            ante_upper="Raggiungi l'ante 8",
+            ante_up="Raggiungi posta 4",
+            ante_upper="Raggiungi posta 8",
 			low_stakes="Vinci una sessione in difficoltà Puntata Rossa",
             mid_stakes="Vinci una sessione in difficoltà Puntata Nera",
             high_stakes="Vinci una sessione in difficoltà Puntata Dorata",
@@ -3281,7 +3281,7 @@ return {
             heads_up="Vinci una sessione",
             speedrunner="Vinci una sessione in massimo 12 round",
             flushed="Gioca un Colore con 5 carte Multiuso",
-            roi="Compra 5 Buoni prima dell'ante 4",
+            roi="Compra 5 Buoni prima della Posta 4",
             royale="Gioca una Scala reale Massima",
             retrograde="Porta una mano di poker qualsiasi al livello 10",
             shattered="Rompi 2 carte di vetro in una singola mano",
@@ -3306,8 +3306,8 @@ return {
             _100000k="100.000K",
             _1000k="1.000K",
             _10k="Diecimila",
-            ante_up="Aumento di Ante!",
-            ante_upper="Grande aumento di Ante!",
+            ante_up="Alziamo la Posta!",
+            ante_upper="Rilanciamo la Posta!",
             astronomy="Astronomia",
             big_hands="Mani grandi",
             card_discarder="Tanti scarti",
@@ -3511,8 +3511,8 @@ return {
             k_again_ex="Di nuovo!",
             k_all_hands="Tutte le mani",
             k_also_applied="Si applica anche",
-            k_ante="Ante",
-            k_ante_cap="ANTE",
+            k_ante="Posta",
+            k_ante_cap="POSTA",
             k_arcana_pack="Busta arcana",
             k_balanced="Bilanciato",
             k_banned_cards="Carte proibite",
@@ -3724,7 +3724,7 @@ return {
             ph_score_cards_discarded="Carte scartate",
             ph_score_cards_played="Carte giocate",
             ph_score_cards_purchased="Carte acquistate",
-            ph_score_furthest_ante="Ante",
+            ph_score_furthest_ante="Posta",
             ph_score_furthest_round="Round",
             ph_score_hand="Mano migliore",
             ph_score_new_collection="Nuove scoperte",
@@ -3736,7 +3736,7 @@ return {
             ph_stat_joker="Round completati totali con questa carta",
             ph_stat_voucher="Numero di volte che questo buono è stato riscattato",
             ph_unscored_hand="La mano non segnerà punti",
-            ph_up_ante_1="Aumenta l'ante",
+            ph_up_ante_1="Alza la posta!",
             ph_up_ante_2="Incrementa tutti i Bui",
             ph_up_ante_3="Cambia i Bui",
             ph_vouchers_redeemed="Buoni riscattati in questa sessione",
@@ -3747,7 +3747,7 @@ return {
             boss_streak="Record di boss di fila",
             collection="Collezione",
             current_streak="",
-            furthest_ante="Ante più alto",
+            furthest_ante="Posta più alta",
             furthest_round="Round più alto",
             hand="Mano migliore",
             most_money="Record di soldi",
@@ -3987,11 +3987,11 @@ return {
             },
             bb_4={
                 "Se lo batti,",
-                "l'{C:attention}Ante{} aumenta e tutti i",
+                "la {C:attention}Posta{} aumenta e tutti i",
                 "{C:attention}Bui{} diventano più difficili",
             },
             bb_5={
-                "Batti l'{C:attention}Ante{} #1# per vincere.",
+                "Batti la {C:attention}Posta{} #1# per vincere.",
                 "Ora tocca a te!",
             },
             fh_1={
@@ -4131,7 +4131,7 @@ return {
             a_sold_tally="#1#/#2# vendute",
             a_xmult=" X#1# Molt",
             a_xmult_minus="-X#1# Molt",
-            ante_x_voucher="BUONO ANTE #1#",
+            ante_x_voucher="BUONO POSTA #1#",
             challenges_completed="#1#/#2# sfide completate",
             completed="Completato: #1#/#2#",
             deck_preview_wheel_singular="Il numero potrebbe essere inferiore a causa della carta pescata a faccia in giù",
@@ -4207,10 +4207,10 @@ return {
                 "{C:inactive}Nessuno",
             },
             ch_c_set_eternal_ante={
-                "Quando il boss dell'ante {C:attention}#1#{} viene sconfitto, tutti i Jolly diventano {C:attention}Eterni",
+                "Quando il boss della Posta {C:attention}#1#{} viene sconfitto, tutti i Jolly diventano {C:attention}Eterni",
             },
             ch_c_set_joker_slots_ante={
-                "Quando il boss dell'ante {C:attention}#1#{} viene sconfitto, gli slot Jolly vengono portati a {C:attention}0",
+                "Quando il boss della Posta {C:attention}#1#{} viene sconfitto, gli slot Jolly vengono portati a {C:attention}0",
             },
             ch_c_set_seed={
                 "1 tentativo con seed impostato: {C:inactive}{Hidden}",
